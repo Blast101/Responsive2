@@ -89,6 +89,7 @@ html,body{
         order: 3;
         border: 2px solid blue;
         width: 100%;
+        height: 300px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -97,8 +98,9 @@ html,body{
       }
     
     .b{
-        width: 25px;
-        height:25px;
+        width: 25%;
+        height:50%;
+        margin: 5px;
         border: 2px solid black;
         text-align: center;
     }
@@ -107,7 +109,7 @@ html,body{
     {
         border: 2px solid rgb(189, 223, 23);
         width: 100%;
-        height: 90%;
+        height: 2000px;
         display: flex;
         flex-direction: row;
         margin:1px 1px ;
