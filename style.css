@@ -1,5 +1,5 @@
 html,body{
-    height: 100%;
+    height: 100vh;
 }
 
 *{
@@ -8,77 +8,10 @@ html,body{
     
 }
 
-.container
-{
-    height: 100%;
-    width: 100%;
-    background-color: aquamarine;
-    display: flex;
-}
-
-.btn {
-    border: 2px solid blue;
-    width: 19%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin: 2px 2px;
-    padding: 3px;
-  }
-
-.b{
-    width: 50px;
-    height: 50px;
-    margin: 2px 2px;
-    border: 2px solid black;
-    text-align: center;
-    border-radius: 2px;
-}
-
-.tab
-{
-    border: 2px solid rgb(189, 223, 23);
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin: 2px 2px;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    /* importent */
-}
-
-.t{
-    width: 262px;
-    height: 262px;
-    border: 2px solid black;
-    margin: 5px 5px;
-    border-radius: 5px;
-}
-
-.camp {
-    border: 2px solid rgb(195, 13, 186);
-    border: 2px solid rgb(189, 223, 23);
-    width: 33%;
-    display: flex;
-    flex-direction: column;
-    align-items: self-start;
-    margin: 2px 2px;
-    padding: 5px 5px;
-    position: relative;
-  }
-
-.c{
-    margin: 5px auto;
-    width: 100%;
-    height: 50px;
-    border: 2px solid black;
-    text-align: center;
-}
 
 
 
-@media only screen and (max-width:1080px)
+@media only screen and (min-width:1080px)
 {
     .container{
         height: 100%;
@@ -111,6 +44,7 @@ html,body{
         border: 2px solid rgb(189, 223, 23);
         width: 100vw;
         height: 80vh;
+        /* height: 2000px; */
         display: flex;
         flex-direction: row;
         margin:1px 1px ;
