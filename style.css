@@ -81,6 +81,7 @@ html,body{
 @media only screen and (max-width:1080px)
 {
     .container{
+        height: 100%;
         background-color: rgb(229, 230, 240);
         display: flex;
         flex-wrap: wrap;
@@ -88,8 +89,8 @@ html,body{
     .btn {
         order: 3;
         border: 2px solid blue;
-        width: 100%;
-        height: 300px;
+        width: 100vw;
+        height: 20vh;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -108,7 +109,8 @@ html,body{
     .tab
     {
         border: 2px solid rgb(189, 223, 23);
-        width: 100%;
+        width: 100vw;
+        height: 80vh;
         height: 2000px;
         display: flex;
         flex-direction: row;
